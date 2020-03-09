@@ -45,6 +45,12 @@ export default new Router({
       name: 'animte',
       component: () => import('../page/animate/bone'),
       children: []
+    },
+    {
+      path: '/canvas',
+      name: 'canvas',
+      component: () => import('../page/canvas'),
+      children: []
     }
   ]
 })
